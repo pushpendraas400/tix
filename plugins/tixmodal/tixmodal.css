@@ -1,0 +1,7 @@
+.modal{padding:1em;display:none;position:absolute;background-color:#fff;z-index:10001;-webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);box-shadow: 0 5px 15px rgba(0,0,0,.5);}
+.modal-header{padding:0.3em;}
+.modal-title{font-size:1.3em;padding:0.1em;color:#333;}
+.modal-close{float:right;padding:0.2em;text-decoration:none;color:#333;cursor:pointer;font-size:1.5em;}
+.modal-close:hover{text-decoration:none;background-color:#333;color:#fff;}
+.modal-content{padding:1em;}
+.modal-footer{margin:0.4em;padding:0.2em;}

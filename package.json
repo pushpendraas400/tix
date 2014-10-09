@@ -1,0 +1,39 @@
+{
+  "name": "Tix",
+  "title": "Responsive CSS framework",
+  "version": "1.0.1",
+  "description": "Tix framework is a simple, yet powerful responsive CSS web framework to create web pages quickly and easily. ",
+  "homepage": "http://tixcssframework.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushpendra10/tix.git"
+  },
+  "keywords": [
+    "responsive-css-framework",
+    "responsive",
+    "css",
+    "js",
+	"mobile-first",
+	"framework",
+	"web",
+    "front-end",
+    "create-responsive-site"
+  ],
+  "author": {
+    "name": "Pushpendra Singh Chouhan",
+    "email": "pushpendra.as400@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pushpendra10/tix/blob/master/mit-license.txt"
+    }
+  ],
+  "bugs": "https://github.com/pushpendra10/tix/issues",
+  "download": "http://tikslus.com/web/bundles/tikslustikslus/downloads/tix.zip",
+  "demo" : "http://tixcssframework.com",
+  "docs" : "http://tixcssframework.com",
+  "dependencies": {
+    "jquery": ">=1.11.1"
+  }
+}

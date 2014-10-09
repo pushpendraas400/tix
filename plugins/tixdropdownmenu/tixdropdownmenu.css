@@ -1,0 +1,84 @@
+/* drop downs */
+.dropdown-menu{
+position:relative;
+}
+.dropdown-menu .caret{
+display: inline-block;
+width: 0;
+height: 0;
+margin-left: 2px;
+vertical-align: middle;
+border-top: 4px solid;
+border-right: 4px solid transparent;
+border-left: 4px solid transparent;
+}
+
+.open{
+background-color:#eee;
+color:#333;
+}
+/* drop down menu */
+.dropdown-menu a.menu-toggle{
+display:block;
+padding:0.5em;
+text-decoration:none;
+color:#333;
+}
+.dropdown-menu a.menu-toggle:hover{
+background-color:#eee;
+color:#333;
+}
+
+
+
+.dropdown-menu ul.menu{
+list-style:none;
+background-color:#fff;
+padding:0;
+margin:0;
+position:absolute;
+top:0;
+left:0;
+z-index: 1000;
+display: none;
+min-width: 160px;
+padding: 5px 0;
+margin: 2px 0 0;
+font-size: 14px;
+text-align: left;
+list-style: none;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #ccc;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+}
+
+.dropdown-menu ul.menu > li.menu-item{
+background-color:#fff;
+
+}
+
+.dropdown-menu ul.menu > li.divider{
+height: 1px;
+margin: 0.7em 0;
+overflow: hidden;
+background-color: #e5e5e5;
+}
+
+
+.dropdown-menu ul.menu  > li.menu-item a{
+text-decoration:none;
+font-size:1em;
+padding:0.5em;
+display:block;
+color:#111;
+}
+.dropdown-menu ul.menu li.menu-item a:hover{
+background-color:#eee;
+color:#333;
+}

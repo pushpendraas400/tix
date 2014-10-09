@@ -1,0 +1,38 @@
+/* hover image */
+div.img-hover{position:relative;cursor:pointer;
+display: inline-block;overflow:hidden;border:1px solid #555;}
+div.img-hover img{display:block;}
+div.img-hover img:hover{opacity:0.8}
+div.img-hover .img-details{position:absolute;top:0;left:0;display:none;width:100%;height:100%;}
+div.img-hover .left-to-right{left:-99%;} 
+div.img-hover .right-to-left{right:-99%;} 
+div.img-hover .top-to-bottom{top:-99%;}  
+div.img-hover .bottom-to-top{bottom:-99%;} 
+div.img-hover .fadein{top:0;left:0} 
+div.img-hover .img-details  > div{opacity:1}
+div.img-hover .img-details  > div.hover-center,div.img-hover .img-details  > div.hover-left,div.img-hover .img-details  > div.hover-right,div.img-hover .img-details  > div.hover-bottom,div.img-hover .img-details  > div.hover-top{position:absolute;}
+div.img-hover  .topleft{position:absolute;left:0.3em;top:0.3em;}
+div.img-hover .topright{position:absolute;right:0.3em;top:0.3em;}
+div.img-hover .bottomleft{position:absolute;left:0.3em;bottom:0.3em;}
+div.img-hover .bottomright{position:absolute;right:0.3em;bottom:0.3em;}
+div.img-hover .corner-ribbon {
+  background-color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: absolute;
+  left: 0.2em;
+  top: 0.8em;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+
+}
+
+div.img-hover .corner-ribbon p,div.img-hover .corner-ribbon span,div.img-hover .corner-ribbon label,div.img-hover .corner-ribbon a{
+padding:0.3em;
+color:#fff;
+}

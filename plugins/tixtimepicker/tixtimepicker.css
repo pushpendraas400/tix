@@ -1,0 +1,12 @@
+/* tix time picker */
+.tixtimepicker{display:none;position:absolute;max-width:300px;background-color:#fff;border:1px solid #ccc; box-shadow: 0px 1px 2px #DDD inset;left:-9999px;}
+.tixtimepicker ul.list{padding:0;margin:0.1em}
+.tixtimepicker ul.list li{padding:0.1em;text-align:center}
+.tixtimepicker .input-hour,.tixtimepicker .input-minute,.tixtimepicker .input-meridiem{width:3em;height:3em;max-width:4em;max-height:4em;font-weight:bold;color:#aaa;text-align:center;text-transform:upppercase}
+.tixtimepicker a{font-size:1em;display:block;text-align:center}
+.tixtimepicker .filler label{
+font-size: 3em;
+position: relative;
+top: 5px;
+color: #ccc;
+}

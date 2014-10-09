@@ -1,0 +1,50 @@
+.tixdatepicker{display:none;position:absolute;max-width:300px;background-color:#fff;border:1px solid #ccc; box-shadow: 0px 1px 2px #DDD inset;}
+.tixdatepicker .cal-next,.tixdatepicker .cal-prev{font-size:2em;padding:0.2em;display:block}
+.tixdatepicker table.op{margin:0.2em;padding:0;width:100%}
+.tixdatepicker table.op td{padding:0.1em;font-size:1.5em;}
+.tixdatepicker table.op td.cmonth:hover,.tixdatepicker table.op td.cyear:hover{
+color:#245dc1;
+text-decoration:underline;
+cursor:pointer;
+}
+.tixdatepicker table.main td.today{
+background-color:#245dc1;
+color:#fff;
+border:1px solid #ddd;
+padding:0.3em;
+}
+.tixdatepicker table.main td{
+color:#245dc1;
+cursor:pointer;
+text-align:center;
+}
+
+.tixdatepicker table.main td.othermonth{
+color:#ddd !important;
+}
+.tixdatepicker table.main td.othermonth:hover{
+background-color:transparent !important;
+color:transparent !important;
+}
+
+.tixdatepicker table.main td:hover{
+background-color:#245dc1;
+color:#fff;
+border:1px solid #ddd;
+}
+.tixdatepicker table.main td.td_today:hover{
+background-color:transparent;
+}
+
+.tixdatepicker table.selection{display:none;}
+.tixdatepicker table.selection td{padding:0;margin:0;text-align:center}
+.tixdatepicker table.selection  tfoot ul li{margin:0.2em;}
+
+.tixdatepicker table.op td.months,.tixdatepicker table.op td.years{display:none;}
+.readonlypicker{
+border: 1px solid #DDDDDD !important;
+background-color: transparent !important;
+color: #333 !important;}
+.input-field .readonlypicker{
+border:0px !important;
+}

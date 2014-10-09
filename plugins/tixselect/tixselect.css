@@ -1,0 +1,64 @@
+.tixselect{position:relative;cursor:pointer;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 2px #DDD inset;
+	min-height:32px;
+	display:inline-block;
+
+}
+.downarrow{
+position: absolute;
+right: 10px;
+top: 0.5em;
+}
+
+.tixselect span.caption{
+padding-top:0.4em;
+display: block;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+padding-left: 0.4em;
+color:#555;
+height:32px;
+}
+.tixselect .search{padding: 3px 4px;
+position: relative;
+margin: 1em 0px 0px;
+white-space: nowrap;
+z-index: 1010;}
+
+.tixselect .wrapper{position:absolute;left:-1px;top:31px;display:none;
+background-color: #FFF;
+  
+	border-style: none solid solid;
+	border-top-width: 0px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-color:#ccc;
+border-right:2px solid #ddd;
+
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+	 
+z-index:1000;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+border-bottom-right-radius: 2px;
+border-bottom-left-radius: 2px;
+
+}
+
+.tixselect ul{margin: 0px 4px 4px 0px;
+max-height: 240px;
+padding: 0px 0px 0px 4px;
+position: relative;
+overflow-x: hidden;
+overflow-y: auto;}
+.tixselect ul>li{display:block;padding-left:0.1em;}
+.tixselect ul>li:hover,li.selected{background-color:#ddd;cursor:pointer;display:block;padding-left:0.3em;}
+.tixselect .tixselect_search{margin:0;}
+.tixselect .search .input-addon{padding-top:0.6em;}
+.tixselect span.fa-search{
+margin-right: 0.5em;color:#bbb;
+}

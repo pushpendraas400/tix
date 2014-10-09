@@ -1,0 +1,18 @@
+.tixspinner{position: relative;display:inline-block;}
+.spinners{
+background-color: #eee;
+border: 1px solid #ddd;
+min-width: 20px;
+height: 32px;
+margin-top: 5px;
+margin-left: -1px;
+display:inline-block;
+}
+.tixspinner ul{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.tixspinner .spinner-input{display:block;}
+.tixspinner input{min-height:32px;}
+.tixspinner ul li a{display:block;height: 15px;}

@@ -1,0 +1,12 @@
+.tabs{
+display:block;
+overflow:hidden;
+}
+.tabs ul{list-style:none;border-bottom:1px solid #ddd;width:100%;display:table;}
+.tabs ul:before{content:'';display:table;}
+.tabs ul li{float:left;margin:0.1em;background-color:#fff;position:relative}
+.tabs ul li a{display:block;text-decoration:none;padding:0.5em;color:#333}
+.tabs ul li a:hover{background-color:#eee;}
+.tabs .tab-pane{clear:both;display:none;}
+.tabs ul li.active{}
+.tabs ul li.active a{border-top:1px solid #ddd;border-left:1px solid #ddd;border-right:1px solid #ddd;border-bottom:4px solid #fff;margin-bottom:-4px;color:#333}

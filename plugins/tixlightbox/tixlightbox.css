@@ -1,0 +1,15 @@
+/* lightbox */
+#tix-lightbox{top:45%;left:48%;position:fixed;display:block;background-color:#fff;z-index:100000;webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);box-shadow: 0 5px 15px rgba(0,0,0,.5);}
+#tix-lightbox .tix-lightbox-header,#tix-lightbox .tix-lightbox-footer{display:block;min-height:1em;width:100%;}
+.tix-lightbox-header p,.tix-lightbox-footer p{margin:0;padding-left: 0.2em;
+padding-top: 0.2em;}
+#tix-lightbox .tix-lightbox-header .tix-lightbox-close{float:right;margin-right:3px;text-decoration:none;padding:0.2em;color:#333}
+#tix-lightbox .tix-lightbox-header .tix-lightbox-close:hover{background-color:#000;color:#fff;}
+#tix-lightbox .tix-lightbox-content{position:relative;min-width:7.5em;min-height:3.7em}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-prev{position:absolute;top:45%;left:0.1em;}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-next{position:absolute;top:45%;right:0.1em;}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-next a,.tix-lightbox-prev a{;text-decoration:none;background-color:#fff;opacity:0.8;padding:1em;color:#000;font-size:1em;}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-next a:before{content:'\203A'}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-prev a:before{content:'\2039'}
+#tix-lightbox .tix-lightbox-content .tix-lightbox-next a:hover,.tix-lightbox-prev a:hover{opacity:1}
+/* end lightbox */

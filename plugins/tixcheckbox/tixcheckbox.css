@@ -1,0 +1,10 @@
+/* tix checkbox */
+.tixcheckbox{font-size:1.2em;;cursor:pointer}
+.tixcheckbox span.fa {margin:0.1em;color:#aaa;}
+.tixcheckbox span.disabled,label.disabled{color:#ccc !important;}
+.tixcheckbox span.fa:hover,label.tixcheckbox_label:hover{color:#245dc1}
+label.tixcheckbox_label{padding-left: 0.3em;
+font-size: 1em;
+cursor:pointer;
+vertical-align: top;
+}

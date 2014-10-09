@@ -1,0 +1,10 @@
+/* tix radiobuttons */
+.tixradiobutton{font-size:1.2em;;cursor:pointer}
+.tixradiobutton span.fa {margin:0.1em;color:#aaa;}
+.tixradiobutton span.disabled,label.disabled{color:#ccc !important;}
+.tixradiobutton span.fa:hover,label.tixradiobutton_label:hover{color:#245dc1}
+label.tixradiobutton_label{padding-left: 0.3em;
+font-size: 1em;
+cursor:pointer;
+vertical-align: top;
+}

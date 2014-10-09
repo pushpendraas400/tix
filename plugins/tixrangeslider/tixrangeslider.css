@@ -1,0 +1,57 @@
+/*tix range slider */
+
+.rangeslider{
+display: block;
+position: relative;
+width: 100%;
+min-height: 3em;
+}
+.rangeslider .line{
+height: 0.3em;
+position: absolute;
+background-color: #444;
+width: 100%;
+display: block;
+top: 70%;
+}
+
+.rangeslider .highlighted{
+height: 0.3em;
+position: absolute;
+background-color: #ff0000;
+display: block;
+top: 70%;
+}
+
+.rangeslider .knob{
+width: 1em;
+height: 1em;
+border-radius: 0.5em;
+background-color: #000;
+border: 1px solid #fff;
+position: absolute;
+top: 55%;
+}
+.rangeslider .indicator{
+background-color: #aaa;
+color:#fff;
+position:absolute;
+padding:0.2em;
+top:-10%;
+}
+.rangeslider .caption{
+font-size:1em;
+padding:0.2em;
+text-align:center;
+}
+
+.rangeslider .min{
+position:absolute;
+left:-2em;
+top:50%;
+}
+.rangeslider .max{
+position:absolute;
+right:-2em;
+top:50%;
+}

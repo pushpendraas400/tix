@@ -1,0 +1,73 @@
+
+/* tix image slider */
+
+.tixslider{position:relative;visibility:hidden;overflow:hidden}
+.tixslider ul.slider{list-style:none;position:relative;overflow:hidden;margin:0;padding:0}
+.tixslider ul.slider >li{float:left;position:relative;max-width:100%;height:auto}
+.tixslider .progress{position:absolute;top:0;left:0;height:1%;background-color:#000;width:0;opacity:0.5;}
+
+
+                .tixslider .slider_nav{
+                   position:absolute;
+                   z-index:5000;
+                   bottom:1%;
+				   width:100%;
+				   display:block;
+                }
+				
+				.tixslider .slider_nav ul{display:table;margin:0 auto;padding-left:0;list-style:none}
+                .tixslider .slider_nav .nav{
+                   float:left;
+                   margin:5px;
+				   width: 1em;
+                   height:1em;
+                   background-color:#000;
+                   border-radius:50%;
+                   border:1px solid #fff;
+                   opacity:0.5;
+                   cursor:pointer;
+				   z-index:95400;
+                }
+                .tixslider .slider_nav .selected{
+                   background-color:#fff !important;
+                   border:1px solid #000 !important;
+                }
+
+                .tixslider .slider_nav div.nav:hover{
+                   background-color:#fff;
+                   border:1px solid #000;
+                }
+
+                .tixslider .nav_left{
+                    position:absolute;
+                    width:2.8em;
+                    height:2.8em;
+                    background-color:#000;
+                    opacity:.5;
+                    text-align:center;
+                   cursor:pointer;
+					z-index:95400;
+					top:40%;
+					left:0;
+                }
+                .tixslider .nav_left span,.tixslider .nav_right span{
+                   font-size:2em;
+                   color:#fff;
+                   font-weight:bold;
+                 
+                   text-align:center;
+                  
+                }
+
+                .tixslider .nav_right{
+                   position:absolute;
+                   width:2.8em;
+                   height:2.8em;
+                   background-color:#000;
+                   opacity:.5;
+                   text-align:center;
+                   
+                   cursor:pointer;
+				   right:0;
+				   top:40%;
+                }
