@@ -14,3 +14,6 @@
 @media only screen and (min-width:481px) and (max-width:641px) {
 .modal{max-width:500px;}
 }
+
+@media only screen and (max-width: 360px){
+.modal{max-width:360px;width:440px !important;left:0 !important;}
