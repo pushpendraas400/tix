@@ -1,0 +1,30 @@
+/* panel */
+ 
+ .panel{display:block;
+ margin-bottom: 20px;
+background-color: $panel-color;
+border:$panel-border solid $panel-border-color;
+border-radius: $panel-border-radius;
+@include box-shadow(0 1px 1px rgba(0,0,0,.3));
+}
+
+.panel .panel-heading{
+padding: $panel-heading-padding;
+border-bottom: $panel-heading-border solid transparent;
+border-top-right-radius: $panel-heading-border-radius;
+border-top-left-radius: $panel-heading-border-radius;
+color: $panel-heading-text-color;
+background-color: $panel-heading-color;
+border-color: $panel-heading-border-color;
+text-transform: uppercase;
+}
+.panel .panel-body{
+padding: $panel-body-padding;
+} 
+.panel-body:after, .panel-body:before {
+content: " ";
+display: table;
+}
+.panel-body:after {
+clear: both;
+}

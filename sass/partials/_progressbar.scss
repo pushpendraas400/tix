@@ -1,0 +1,31 @@
+/* progress bar */
+.progress-bar {
+background-color: $progress-bar-color;
+height: $progress-bar-height;
+padding: $progress-bar-padding;
+width: 100%;
+border-radius: $progress-bar-border-radius;
+display: block;
+margin-bottom: $progress-bar-margin-bottom;
+margin-top: $progress-bar-margin-top;
+margin-left: $progress-bar-margin-left;
+margin-right: $progress-bar-margin-right;
+    
+}
+
+.progress-bar span {
+display: block;
+height: 100%;
+border-radius: $progress-bar-inner-border-radius;
+background-color: $progress-bar-default-color;
+font-size: $progress-bar-font-size;
+text-align: $progress-bar-text-align;
+transition: width .4s ease-in-out;  
+}
+
+.progress-bar span.info{background-color:$progress-bar-info-color;color:$progress-bar-info-text-color}
+.progress-bar span.success{background-color:$progress-bar-success-color;color:$progress-bar-success-text-color}
+.progress-bar span.warning{background-color:$progress-bar-warning-color;color:$progress-bar-warning-text-color}
+.progress-bar span.danger{background-color:$progress-bar-danger-color;color:$progress-bar-danger-text-color}
+
+/*end progress bar */

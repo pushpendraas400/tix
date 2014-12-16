@@ -1,0 +1,35 @@
+/* form */
+form fieldset{margin:$fieldset-margin;padding:$fieldset-padding;width:100%;border:0}
+form legend{padding-left:0;font-size:$legend-font-size;color:$legend-text-color;paddig:$legend-padding;display:block;width:100%;border-bottom:$legend-border solid $legend-border-color}
+form label{display:block;}
+/* stacked form*/
+.form-stacked{margin:0;}
+.form-stacked input,.form-stacked textarea,.form-stacked select{display:block;}
+
+/* aligned form */
+.form-aligned{margin:0}
+.form-aligned label{text-align:right;display:inline-block;vertical-align:middle;width:5em;margin:0 1em 0 0;padding-right:0.4em}
+.form-aligned input,.form-aligned textarea,.form-aligned select,.form-aligned radio,.form-aligned checkbo{display:inline-block;vertical-align:middle}
+.form-aligned .group-elements{display:block;margin:0.2em;}
+.form-aligned .group-elements .elements{display:table-row;}
+.form-aligned .group-elements label,.form-aligned .group-elements span{display:table-cell}
+.form-aligned .group-elements input,.form-aligned .group-elements  textarea,.form-aligned .group-elements  select,.form-aligned .group-elements radio,.form-aligned .group-elements checkbox{display:table-cell;}
+.form-aligned .group-elements:last-child{content:'';display:table}
+.form-aligned .controls{margin-left:5em;display:block;margin-top:1em;}
+/* grouped form */
+fieldset.group{margin:0;padding:0}
+
+form fieldset.form-group input,fieldset.form-group textarea,fieldset.form-group select{position:relative;top:-1px;display:block;margin:0;border-radius:0;}
+form fieldset.form-group input:first-child{top:0px; border-radius:0.3em 0.3em 0 0;}
+form fieldset.form-group input:last-child{top:-2px;border-radius:0 0 0.3em 0.3em;}
+
+form fieldset.form-group textarea:first-child{top:0px; border-radius:0.3em 0.3em 0 0;}
+form fieldset.form-group textarea:last-child{top:-2px;border-radius:0 0 0.3em 0.3em;}
+
+form fieldset.form-group select:first-child{top:0px; border-radius:0.3em 0.3em 0 0;}
+form fieldset.form-group select:last-child{top:-2px;border-radius:0 0 0.3em 0.3em;}
+
+/*form hints*/
+.required:after{content:$form-hint-required-symbol;color:$form-hint-required-color;}
+.form-element-hint{display:inline-block;padding-left:0.2em;color:$form-hint-text-color;vertical-align:middle;font-size:$form-hint-font-size;}
+/*end form*/

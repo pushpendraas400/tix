@@ -1,0 +1,249 @@
+.button{
+text-decoration:none;
+color:$button-color;
+text-align:center;
+border: 0;
+background-color:$button-background-color;
+@include background-gradient($button-gradient1-color,$button-gradient2-color);
+@include border-radius($button-radius);
+cursor: $button-cursor;
+display: inline-block;
+	font:{
+		family: $button-font-family;
+		size:$button-font-size;
+		weight:$button-font-weight;
+		}
+line-height: $button-line-height;
+padding: $button-padding;
+text-align: $button-text-align;
+@include text-shadow(0,-1px,0,rgba(0,0,0,.08));
+
+	&:hover{
+	background-color:$button-hover-color;
+	@include background-gradient($button-hover-gradient1-color,$button-hover-gradient2-color);
+	text-decoration:none !important;
+	}
+
+}
+
+
+
+.button-primary{
+background-color: $primary-button-color;
+color: $primary-button-text-color;
+@include background-gradient($primary-button-gradient1-color,$primary-button-gradient2-color);
+	&:hover{
+		background-color: $primary-button-hover-color;
+		@include background-gradient($primary-button-hover-gradient1-color,$primary-button-hover-gradient2-color);
+
+
+	}
+
+}
+
+.button-danger{
+color:$danger-button-text-color;
+@include background-gradient($danger-button-gradient1-color,$danger-button-gradient2-color);
+
+	&:hover{
+	@include background-gradient($danger-button-hover-gradient1-color,$danger-button-hover-gradient2-color);
+	}
+
+}
+
+.button-success{
+color:$success-button-text-color;
+@include background-gradient($success-button-gradient1-color,$success-button-gradient2-color);
+
+	&:hover{
+	@include background-gradient($success-button-hover-gradient1-color,$success-button-hover-gradient2-color);
+	}
+
+}
+
+
+.button-info{
+color:$info-button-text-color;
+@include background-gradient($info-button-gradient1-color,$info-button-gradient2-color);
+
+	&:hover{
+	@include background-gradient($info-button-hover-gradient1-color,$info-button-hover-gradient2-color);
+	}
+
+}
+
+
+.button-warning{
+color:$warning-button-text-color;
+@include background-gradient($warning-button-gradient1-color,$warning-button-gradient2-color);
+
+	&:hover{
+	@include background-gradient($warning-button-hover-gradient1-color,$warning-button-hover-gradient2-color);
+	}
+
+}
+
+.button-flat{
+text-decoration:none;
+color:$flat-button-text-color;
+text-align:$flat-button-text-align;
+border: 0;
+@include border-radius(2px);
+background-color:$flat-button-color;
+cursor: $flat-button-cursor;
+display: inline-block;
+	font:{
+		family:$flat-button-font-family;
+		size:$flat-button-font-size;
+		weight:bold;
+	
+	}
+line-height: $flat-button-line-height;
+padding: $flat-button-padding;
+@include text-shadow(0,-1px,0,rgba(0,0,0,.08));
+
+	&:hover{
+			text-decoration:none !important;
+				background-color:$flat-button-hover-color;
+	}
+
+}
+
+.button-flat-primary{
+background-color:$flat-button-primary-color;
+color:$flat-button-primary-text-color;
+	&:hover{
+	background-color:$flat-button-primary-hover-color;
+	}
+}
+
+
+.button-flat-danger{
+background-color:$flat-button-danger-color;
+color:$flat-button-danger-text-color;
+	&:hover{
+	background-color:$flat-button-danger-hover-color;
+	}
+}
+
+.button-flat-success{
+background-color:$flat-button-success-color;
+color:$flat-button-success-text-color;
+	&:hover{
+	background-color:$flat-button-success-hover-color;
+	}
+}
+
+
+.button-flat-info{
+background-color:$flat-button-info-color;
+color:$flat-button-info-text-color;
+	&:hover{
+	background-color:$flat-button-info-hover-color;
+	}
+}
+
+
+.button-flat-warning{
+background-color:$flat-button-warning-color;
+color:$flat-button-warning-text-color;
+	&:hover{
+	background-color:$flat-button-warning-hover-color;
+	}
+}
+
+.button-alt{
+border:1px solid $alt-button-border-color;
+@extend .button-flat;
+
+	&:hover{
+	border:1px solid $alt-button-hover-border-color;
+	}
+}
+
+
+.button-alt-primary{
+border:1px solid $alt-button-primary-border-color;
+background-color:$alt-button-primary-color;
+	&:hover{
+	border:1px solid $alt-button-primary-hover-border-color;
+background-color:$alt-button-primary-hover-color;
+color:$alt-button-primary-hover-text-color;
+
+	}
+}
+
+.button-alt-danger{
+border:1px solid $alt-button-danger-border-color;
+background-color:$alt-button-danger-color;
+	&:hover{
+	border:1px solid $alt-button-danger-hover-border-color;
+background-color:$alt-button-danger-hover-color;
+color:$alt-button-danger-hover-text-color;
+
+	}
+}
+
+
+.button-alt-success{
+border:1px solid $alt-button-success-border-color;
+background-color:$alt-button-success-color;
+	&:hover{
+	border:1px solid $alt-button-success-hover-border-color;
+background-color:$alt-button-success-hover-color;
+color:$alt-button-success-hover-text-color;
+
+	}
+}
+
+.button-alt-info{
+border:1px solid $alt-button-info-border-color;
+background-color:$alt-button-info-color;
+	&:hover{
+	border:1px solid $alt-button-info-hover-border-color;
+background-color:$alt-button-info-hover-color;
+color:$alt-button-info-hover-text-color;
+
+	}
+}
+
+.button-alt-warning{
+border:1px solid $alt-button-warning-border-color;
+background-color:$alt-button-warning-color;
+	&:hover{
+	border:1px solid $alt-button-warning-hover-border-color;
+background-color:$alt-button-warning-hover-color;
+color:$alt-button-warning-hover-text-color;
+
+	}
+}
+
+
+/* large and small buttons */
+.button-large{padding: $large-button-padding;font-size: $large-button-font-size;line-height: $large-button-line-height;}
+.button-small{padding: $small-button-padding;font-size: $small-button-font-size;line-height: $small-button-line-height;}
+
+
+
+/*button group*/
+.button-toolbar{display:table;}
+.button-group{margin-right:0.5em;display:table-cell;padding-right:1em;}
+.button-group > .button,.button-group > .button-flat,.button-group > .button-alt{
+float:left;border-radius:0;border-left:0;margin-right:0;margin-left:0;
+}
+.button-group > .button:first-child,.button-group > .button-flat:first-child,.button-group > .button-alt:first-child{
+@include border-radius(2px 0 0 2px);
+margin-right:-5px;
+}
+
+.button-group > .button:last-child,.button-group > .button-flat:last-child,.button-group > .button-alt:last-child{
+@include border-radius(2px 0 0 2px);
+margin-left:-5px;
+}
+
+
+.button-group:after,.button-toolbar:after  {
+content: "";
+display: table;
+clear: both;
+}

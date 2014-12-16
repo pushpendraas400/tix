@@ -1,0 +1,10 @@
+.tixscroller_wrapper{position:relative;;overflow:hidden;}
+.tixscroller{margin:0;padding-left:0;padding-right:0;padding-bottom:0;padding-top:1em;list-style:none;overflow:hidden}
+.tixscroller > li{margin-right:0;display:table-cell;}
+.tixscroller  > li:last{margin-right:0;}
+.tixscroller_left{float:left;padding:0.5em;display:block;background-color:#eee;border:ddd;color:aaa}
+.tixscroller_right{float:left;margin-left:0.5em;;padding:0.5em;display:block;background-color:#eee;border:ddd;color:aaa}
+.tixscroller_nav{display:block;float:right;margin-top: 10px;}
+.heading{float:left;display:block;}
+.info{display:block;min-height:50px;}
+.tixscroller_left:hover,.tixscroller_right:hover{background-color:transparent;}

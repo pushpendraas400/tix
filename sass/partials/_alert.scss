@@ -1,0 +1,10 @@
+/*alerts*/
+.alert{position:relative;display:block;padding: $alert-padding;background-color:$alert-default-color;border:$alert-default-border}
+.alert-info{background-color:$alert-info-color;color: $alert-info-text-color;border: $alert-info-border;}
+.alert-warning{color: $alert-warning-text-color;border: $alert-warning-border;background-color:$alert-warning-color;}
+.alert-error{color: $alert-error-text-color;border: $alert-error-border;background-color:$alert-error-color;}
+.alert-success{color: $alert-success-text-color;border: $alert-success-border;background-color:$alert-success-color;}
+
+.alert .dismiss{cursor:pointer;background-color:transparent;opacity:0.5;position:absolute;font-size:1.8em;padding:0.2em;border:0;text-decoration:none;top:.5em;right:.4em;}
+.alert .dismiss:hover{opacity:0.6}
+/* end css items */

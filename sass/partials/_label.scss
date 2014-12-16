@@ -1,0 +1,20 @@
+/*end breadcrumbs*/
+
+/* labels */
+.label {display: inline;vertical-align: baseline;padding: $label-padding;font-size: $label-font-size;font-weight: $label-font-weight;line-height:$label-line-height;color: $label-text-color;text-align: $label-text-align;
+@include border-radius($label-border-radius);
+}
+.label-default{background-color:$label-default-background-color;}
+.label-success{background-color:$label-success-background-color;}
+.label-info{background-color:$label-info-background-color;}
+.label-warning{background-color:$label-warning-background-color;}
+.label-danger{background-color:$label-danger-background-color;}
+/*end labels */
+
+/* badge */
+.badge{display: inline-block;min-width: 1em;padding: $badge-padding;font-size: $badge-font-size;font-weight: $badge-font-weight;line-height: $badge-line-height;color: $badge-text-color;text-align: $badge-text-align;vertical-align: baseline;background-color: $badge-background-color;
+@include border-radius($badge-border-radius);
+}
+
+
+/*end badge*/

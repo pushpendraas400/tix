@@ -1,0 +1,47 @@
+input[type=text],input[type=password],input[type=color],input[type=date],input[type=datetime] ,input[type=datetime-local],input[type=email],input[type=month],input[type=number],input[type=range],input[type=search],input[type=tel],input[type=time],input[type=url],input[type=week],textarea,select {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  display:inline-block;
+  padding:$input-padding;
+  margin: $input-margin;
+  border-radius:$input-border-radius;
+  border: $input-border solid $input-border-color;
+  color:$input-text-color;
+  width:100%;
+ 
+}
+ 
+input[type=text]:focus,input[type=password]:focus,input[type=color]:focus,input[type=date]:focus,input[type=datetime] :focus,input[type=datetime-local]:focus,input[type=email]:focus,input[type=month]:focus,input[type=number]:focus,input[type=range]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=time]:focus,input[type=url]:focus,input[type=week]:focus,textarea:focus,.input-group:hover{
+   @include box-shadow(0 0 5px rgba(36,93,193,1));
+   border: 1px solid rgba(132, 173, 245, 1);
+   color:$input-focus-text-color;
+}
+
+input[disabled],textarea[disabled],select[disabled],input[readonly],select[readonly],textarea[readonly]{
+cursor:not-allowed;
+border-color:transparent;
+background-color:$input-disabled-color;
+color:$input-disabled-text-color;
+}
+
+form input[type=checkbox],form input[type=radio]{float:left;clear:left;margin-top: 0.6em;margin-right:0.6em;}
+
+
+
+/* append and prepend input */
+.input-wrapper{display:table;width:100%;position:relative;position:relative;border-collapse: separate;border-spacing:0;margin-bottom:0.5em;}
+.input-group{vertical-align:middle; border: $input-group-border solid $input-group-border-color;border-radius:$input-group-border-radius;width:100%}
+.input-group span.icon,.input-group i.icon{margin:0.5em;}
+.input-group .input-addon{display:table-cell;white-space:nowrap;vertical-align:top}
+.input-group .input-addon button,.input-group .input-addon a{margin:0;}
+.input-group .input-field{display:table-cell;padding:0px;width:100%}
+.input-group .input-field input,textarea{width:100% !important;}
+.input-group input{border:0;display:block;}
+.input-group input[type=text]:focus,.input-group  textarea:focus{box-shadow:0 0 0 !important;border:0 !important;}
+.input-group input:last-child{border-top-left-radius: 0;border-bottom-left-radius: 0;border-left:0}
+.input-group input:first-child{border-top-right-radius: 0;border-bottom-right-radius: 0;border-right:0}
+/* ends textbox and textarea */
+

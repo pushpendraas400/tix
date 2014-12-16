@@ -1,5 +1,6 @@
-TIX CSS FRAMEWORK
+TIX CSS FRAMEWORK (With the power of SASS)
 ==============================
+Current version: 1.1.1
 
 HTML/CSS and JQUERY components put together to use as a foundation stones for your new website and mobile application designs.
 

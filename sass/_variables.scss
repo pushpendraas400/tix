@@ -1,0 +1,412 @@
+//General Syles
+$base-font-size: 1em !default;
+$base-font-color: #555 !default;
+$base-line-height: 1.5 !default;
+$base-font-family:"Times New Roman" ;
+$base-margin-bottom:1em !default;
+$small-font-size: 80% !default;
+
+//links
+$link-color:#245dc1 !default;
+
+//label span color
+
+$label-color: #555 !default;
+$span-color: #555 !default;
+
+//p
+$p-line-height:1.6em !default;
+
+//hr
+$hr-background-color:#555 !default;
+$hr-color:#ddd !default;
+$hr-height:0.1em !default;
+
+//i
+$i-font-family:FontAwesome !default;
+$i-font-weight: 400 !default;
+$i-font-line-height: 1 !default;
+
+//mark
+$mark-color:#555 !default;
+$mark-background-color:#FCF768 !default;
+
+
+//overaly
+$overlay-background-color:#333;
+$overlay-opacity:0.8;
+
+//buttons
+
+$button-color:#555 !default;
+$button-background-color:#E6E6E6 !default;
+$button-gradient1-color:#E6E6E6 !default;
+$button-gradient2-color: #D9D9D9 !default;
+$button-radius:2px !default;
+$button-font-size:0.85em !default;
+$button-font-weight:bold !default;
+$button-padding:7px 12px !default;
+$button-text-align:center !default;
+$button-hover-color:#D9D9D9 !default;
+$button-hover-gradient1-color: #D9D9D9 !default;
+$button-hover-gradient2-color: #D9D9D9 !default;
+$button-cursor:pointer !default;
+
+$button-font-family:arial sans-serif !default;
+$button-font-size:0.85em !default;
+$button-font-weigth: bold !default;
+$button-line-height:1.54 !default;
+$button-text-align:center !default;
+$button-padding: 7px 12px !default;
+
+
+
+//primary button
+$primary-button-color:#4483EE !default;
+$primary-button-gradient1-color:#5e8ee4 !default;
+$primary-button-gradient2-color:#4173c9 !default;
+$primary-button-color:#fff !default;
+$primary-button-hover-color:#5e8ee4 !default;
+$primary-button-hover-gradient1-color:#4173c9 !default;
+$primary-button-hover-gradient2-color:#5e8ee4 !default;
+$primary-button-text-color:#fff !default;
+
+//danger button
+$danger-button-color:#FF7070 !default;
+$danger-button-gradient1-color:#FF7070 !default;
+$danger-button-gradient2-color: #FF3D3D !default;
+$danger-button-text-color:#fff !default;
+
+
+$danger-button-hover-color:#FF7070 !default;
+$danger-button-hover-gradient1-color:#FF3D3D !default;
+$danger-button-hover-gradient2-color: #FF7070 !default;
+$danger-button-text-color:#fff !default;
+
+
+//success button
+$success-button-color:#00BD5E !default;
+$success-button-gradient1-color:#00BD5E !default;
+$success-button-gradient2-color: #00A352 !default;
+$success-button-text-color:#fff !default;
+
+
+$success-button-hover-color:#00BD5E !default;
+$success-button-hover-gradient1-color:#00A352 !default;
+$success-button-hover-gradient2-color: #00BD5E !default;
+$success-button-text-color:#fff !default;
+
+
+//info button
+$info-button-color:#00B4E0 !default;
+$info-button-gradient1-color:#00B4E0 !default;
+$info-button-gradient2-color: #14D0FF !default;
+$info-button-text-color:#fff !default;
+
+
+$info-button-hover-color:#7AE4FF !default;
+$info-button-hover-gradient1-color:#14D0FF !default;
+$info-button-hover-gradient2-color: #7AE4FF !default;
+$info-button-text-color:#fff !default;
+
+//warning button
+$warning-button-color:#FF7452 !default;
+$warning-button-gradient1-color:#FF896B !default;
+$warning-button-gradient2-color: #FF7452 !default;
+$warning-button-text-color:#fff !default;
+
+
+$warning-button-hover-color:#FF896B !default;
+$warning-button-hover-gradient1-color:#FF7452 !default;
+$warning-button-hover-gradient2-color: #FF896B !default;
+$warning-button-text-color:#fff !default;
+
+
+//flat button
+$flat-button-text-color:#555 !default;
+$flat-button-color:#E6E6E6 !default;
+$flat-button-cursor:pointer  !default;
+$flat-button-padding:7px 12px;
+$flat-button-text-align:center !default;
+$flat-button-border-radius:2px !default;
+$flat-button-font-family:arial,sans-serif !default;
+$flat-button-font-size:0.85em !default;
+$flat-button-font-weight:bold !default;
+$flat-button-line-height:1.54 !default;
+$flat-button-text-align:center !default;
+
+$flat-button-hover-color:#D9D9D9 !default;
+
+$flat-button-primary-color:#4483EE !default;
+$flat-button-primary-hover-color:#5e8ee4 !default;
+$flat-button-primary-text-color:#fff !default;
+
+$flat-button-danger-color:#FF7070 !default;
+$flat-button-danger-hover-color:#FF7070 !default;
+$flat-button-danger-text-color:#fff !default;
+
+$flat-button-success-color:#00BD5E !default;
+$flat-button-success-hover-color:#00BD5E !default;
+$flat-button-success-text-color:#fff !default;
+
+
+$flat-button-info-color:#00B4E0 !default;
+$flat-button-info-hover-color:#7AE4FF !default;
+$flat-button-info-text-color:#fff !default;
+
+
+$flat-button-warning-color:#FF7452 !default;
+$flat-button-warning-hover-color:#FF896B !default;
+$flat-button-warning-text-color:#fff !default;
+
+$alt-button-border-color:#E6E6E6 !default;
+$alt-button-hover-border-color:#D9D9D9 !default;
+$alt-button-hover-color:#D9D9D9 !default;
+
+$alt-button-primary-border-color:#4483EE !default;
+$alt-button-primary-color:#4483EE !default;
+$alt-button-primary-hover-border-color:#5e8ee4 !default;
+$alt-button-primary-hover-color:#5e8ee4 !default;
+$alt-button-primary-hover-text-color:#fff !default;
+
+
+$alt-button-danger-border-color:#FF7070 !default;
+$alt-button-danger-color:#FF7070 !default;
+$alt-button-danger-hover-border-color:#FF7070 !default;
+$alt-button-danger-hover-color:#FF7070 !default;
+$alt-button-danger-hover-text-color:#fff !default;
+
+$alt-button-success-border-color:#00BD5E !default;
+$alt-button-success-color:#00BD5E !default;
+$alt-button-success-hover-border-color:#00BD5E !default;
+$alt-button-success-hover-color:#00BD5E !default;
+$alt-button-success-hover-text-color:#fff !default;
+
+
+$alt-button-info-border-color:#00B4E0 !default;
+$alt-button-info-color:#00B4E0 !default;
+$alt-button-info-hover-border-color:#7AE4FF !default;
+$alt-button-info-hover-color:#7AE4FF !default;
+$alt-button-info-hover-text-color:#fff !default;
+
+
+$alt-button-warning-border-color:#FF7452 !default;
+$alt-button-warning-color:#FF7452 !default;
+$alt-button-warning-hover-border-color:#FF896B !default;
+$alt-button-warning-hover-color:#FF896B !default;
+$alt-button-warning-hover-text-color:#fff !default;
+
+//large and small buttons
+
+$large-button-padding:0.5em 1em !default;
+$large-button-font-size:1.1em !default;
+$large-button-line-height:1.33 !default;
+
+$small-button-padding:0.2em 0.8em !default;
+$small-button-font-size:0.8em !default;
+$small-button-line-height:1.5 !default;
+
+
+//helpers
+$color-white:#fff !default;
+$color-black: #000 !default;
+$color-pink: #FA3E93 !default;
+$color-cyan: #00E5FF !default;
+$color-purple: #FF00DD !default;
+$color-yellow: #FFF700 !default;
+$color-orange: #FF8800 !default;
+$color-blue: #404DFF !default;
+$color-green: #63F76D !default;
+$color-red: #FF3636 !default;
+
+$background-color-white:#fff !default;
+$background-color-black: #000 !default;
+$background-color-pink: #FA3E93 !default;
+$background-color-cyan: #00E5FF !default;
+$background-color-purple: #FF00DD !default;
+$background-color-yellow: #FFF700 !default;
+$background-color-orange: #FF8800 !default;
+$background-color-blue: #404DFF !default;
+$background-color-green: #63F76D !default;
+$background-color-red: #FF3636 !default;
+
+
+$spinner-background-color:#333;
+
+
+//breadcrumbs
+
+$breadcrumb-seperator:"/\00a0" !default;
+$breadcrumb-color:#555 !default;
+$breadcrumb-font-size:0.9em !default;
+$breadcrumb-active-color:#aaa !default;
+$breadcrumb-padding:0 10px !default;
+
+//labels and badges
+$label-padding:.2em .6em .3em !default;
+$label-font-size:0.68em;
+$label-font-weight:bold !default;
+$label-text-color:#fff !default;
+$label-border-radius:.3em !default;
+$label-line-height:1 !default;
+$label-text-align:center !default;
+
+$label-default-background-color:#bbb !default;
+$label-success-background-color:#00B32D !default;
+$label-info-background-color:#2ECBFF !default;
+$label-warning-background-color:#FF622E !default;
+$label-danger-background-color:#FF4D4D !default;
+
+
+$badge-padding:3px 7px !default;
+$badge-font-size:0.68em;
+$badge-font-weight:bold !default;
+$badge-text-color:#fff !default;
+$badge-border-radius:1em !default;
+$badge-line-height:1 !default;
+$badge-text-align:center !default;
+$badge-background-color: #bbb !default;
+
+
+//progress bars
+
+$progress-bar-color:#eee !default;
+$progress-bar-padding:5px !default;
+$progress-bar-border-radius:5px !default;
+$progress-bar-margin-top:0 !default;
+$progress-bar-margin-bottom:1em !default;
+$progress-bar-margin-left:0 !default;
+$progress-bar-margin-right:0 !default;
+$progress-bar-height:1.5em !default;
+
+//progressbar span
+$progress-bar-inner-border-radius: 3px !default;
+$progress-bar-default-color:#fff !default;
+$progress-bar-font-size:0.7em !default;
+$progress-bar-text-align:center !default;
+
+$progress-bar-info-color:#2ECBFF !default;
+$progress-bar-info-text-color:#fff !default;
+
+$progress-bar-success-color:#00B32D !default;
+$progress-bar-success-text-color:#fff !default;
+
+$progress-bar-warning-color:#FF622E !default;
+$progress-bar-warning-text-color:#fff !default;
+
+$progress-bar-danger-color:#FF4D4D !default;
+$progress-bar-danger-text-color:#fff !default;
+
+//pagination
+
+$pagination-margin:0 !default;
+$pagination-padding:1em 0 1em 0 !default;
+$pagination-item-border:1px solid #eee !default;
+$pagination-item-margin: 0.1em !default;
+$pagination-item-link-padding:0 .5em 0 .5em !default;
+$pagination-item-link-color:#eee !default;
+$pagination-item-link-hover-color:#e4e4e4 !default;
+$pagination-item-link-next-icon-symbol:"\00bb" !default;
+$pagination-item-link-prev-icon-symbol:"\00ab" !default;
+$pagination-item-link-next-icon-padding:2px 0 0 10px !default;
+$pagination-item-link-prev-icon-padding:2px 0 0 10px !default;
+
+$pagination-item-link-next-icon-margin: -3px 0 0 0 !default;
+$pagination-item-link-prev-icon-margin: -3px 0 0 0 !default;
+
+//alert
+
+$alert-padding:1em 3em 1em 1em !default;
+$alert-default-color:#eee !default;
+$alert-default-border:2px solid #ddd !default;
+
+$alert-info-color:#CFEDFC !default;
+$alert-info-text-color: #1e5b98 !default;
+$alert-info-border: 2px solid #1e5b98 !default;
+
+$alert-success-color:#D0E6AC !default;
+$alert-success-text-color: #38621d !default;
+$alert-success-border: 2px solid #38621d !default;
+
+$alert-warning-color:#FAD9AA !default;
+$alert-warning-text-color: #b87814 !default;
+$alert-warning-border: 2px solid #b87814 !default;
+
+$alert-error-color:#FAB9B9 !default;
+$alert-error-text-color: #891e1e !default;
+$alert-error-border: 2px solid #891e1e !default;
+
+//table
+
+$table-th-text-color:#444 !default; 
+$table-th-font-weight:bold !default;
+$table-th-padding:0.3em !default;
+$table-th-margin:0 !default;
+$table-th-border:2px !default;
+$table-th-border-color:#ddd !default; 
+
+$table-td-text-color:#444 !default;
+$table-td-margin:0 !default;
+$table-td-padding:0.5em !default;
+
+$table-border-color:#ddd !default;
+$table-border:1px !default;
+
+$table-tr-hover-color:#e5e5e5 !default;
+
+$table-tr-odd-color:#eee !default;
+
+//input
+
+$input-padding:0.5em 0.6em !default;
+$input-margin: 5px 1px 3px 0px !default;
+$input-border:1px !default;
+$input-border-radius:0.3em !default;
+$input-border-color:#DDD !default;
+$input-text-color:#333 !default;
+
+$input-focus-text-color:#222 !default;
+
+$input-disabled-color:#ddd !default;
+$input-disabled-text-color:#ddd !default;
+
+//form
+
+$input-group-border:1px !default;
+$input-group-border-color:#DDD !default;
+$input-group-border-radius:0.3em !default;
+
+$fieldset-margin:0 !default;
+$fieldset-padding:1em !default;
+
+$legend-font-size:125% !default;
+$legend-text-color: #333 !default;
+$legend-padding:1em 1em 1em 0 !default;
+$legend-border:1px !default;
+$legend-border-color: #ddd !default;
+
+$form-hint-required-symbol:'*' !default;
+$form-hint-required-color:#0057F0 !default;
+$form-hint-text-color:#0057F0 !default;
+$form-hint-font-size:0.9em !default;
+
+//panel
+
+$panel-color:#fff !default;
+$panel-border:1px !default;
+$panel-border-color:#e9e9e9 !default;
+$panel-border-radius:4px !default;
+
+$panel-heading-padding:10px 15px !default;
+$panel-heading-text-color:#767676 !default;
+$panel-heading-border:1px !default;
+$panel-heading-border-radius:3px !default;
+$panel-heading-border-color:#e9e9e9 !default;
+$panel-heading-color:#e7e7e7 !default;
+
+$panel-body-padding:15px !default;
+
+
+//grid
+$grid-padding:0.3em !default;
+

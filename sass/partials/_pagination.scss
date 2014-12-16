@@ -1,0 +1,12 @@
+/*pagination */
+ul.pagination{list-style:none;padding:$pagination-padding;margin:$pagination-margin}
+ul.pagination:after{content:"\00a0";}
+
+ul.pagination li{float:left;margin:$pagination-item-margin;border:$pagination-item-border}
+ul.pagination li a{display:block;background-color:$pagination-item-link-color;padding:$pagination-item-link-padding;}
+ul.pagination li a:hover{background-color:$pagination-item-link-hover-color;text-decoration:none;}
+ul.pagination li.pagination-next{float:right;}
+ul.pagination li.pagination-next-icon a:after{float:right;content: $pagination-item-link-next-icon-symbol;padding:$pagination-item-link-next-icon-padding;margin:$pagination-item-link-next-icon-margin;}
+ul.pagination li.pagination-prev-icon a:before{float:left;content: $pagination-item-link-prev-icon-symbol;padding:$pagination-item-link-prev-icon-padding;margin:$pagination-item-link-prev-icon-margin}
+ul.pagination li.pagination-prev{float:left;}
+/*end paginatin*/

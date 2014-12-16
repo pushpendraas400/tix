@@ -1,0 +1,14 @@
+/* breadcrumbs*/
+ul.breadcrumb{list-style:none;padding:0;margin:0}
+ul.breadcrumb li{float:left;display:inline-block;}
+ul.breadcrumb>li:after {
+padding: $breadcrumb-padding;
+content:  $breadcrumb-seperator ;
+}
+
+ul.breadcrumb li a{text-decoration: none;font-size: $breadcrumb-font-size;color:$breadcrumb-color;}
+ul.breadcrumb li a:hover{text-decoration:underline;}
+ul.breadcrumb li.active{color:$breadcrumb-active-color;}
+ul.breadcrumb li.active:after{content:'';}
+
+/*end breadcrumbs*/

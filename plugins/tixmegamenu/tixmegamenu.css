@@ -1,0 +1,14 @@
+.tixmegamenu {z-index:2000100;border-bottom:1px solid #000;margin:0;padding:0;position:relative;display:block;min-height:3.5em}
+.tixmegamenu > li{cursor:pointer;padding-top:0.9em;padding-left:0.5em;padding-right:0.5em;color:#000;float:left;margin-right:1.5em;display:inline-block;background-color:#fff}
+.tixmegamenu > li span:first{display: inline-block;color:red;padding: 1em;}
+.tixmegamenu > li:hover{border-top:1px solid #000;border-left:1px solid #000;border-right:1px solid #000;border-bottom:0;padding-bottom:20px}
+.tixmegamenu > li i.fa-angle-down{padding-left:0.5em;}
+.tixmegamenu > li .menu-row{padding:1em;margin-top:-12px;border-left:1px solid #000;border-right:1px solid #000;border-bottom:1px solid #000;width:100%;position:absolute;display:table;visibility:hidden;overflow:Hidden;top:0px;left:0px;opacity:0;background-color:#fff;z-index:200000;} 
+.tixmegamobilemenu{list-style:inherit;}
+.tixmegamobilemenu > li{padding:0.5em;border-bottom:1px solid #000;float:none;width:100%;display:block;}
+.tixmegamobilemenu > li .menu-row {padding:1em;display:none;position:inherit;background-color:#fff;border:1px solid red}
+.tixmegamobilemenu > li i.fa-angle-down{float:right;}
+.tixmegamobilemenu > li:hover{cursor:pointer;border:0;background-color:#eee;}
+#megamenuoverlay{position:absolute;top:0;left:0;display:none;background-color:#fff}
+#megamenuoverlay .overlay-menu{position:fixed;text-align:center;padding:0.5em;background-color:#eee;border-bottom:1px solid #333;width:100%;}
+#megamenuoverlay .menu-item{padding:1.5em;}

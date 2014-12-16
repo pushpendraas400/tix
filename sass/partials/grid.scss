@@ -1,0 +1,75 @@
+/* grid */
+
+[class*='col-']{
+display:inline-block;
+padding:$grid-padding;
+float:left;
+}
+
+[class*='col-']:last-of-type{
+clear:right;
+}
+
+.col-center{
+display:table !important;
+margin-left:auto;
+margin-right:auto;
+float:none !important;
+}
+
+/* Clearfix */
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+/*
+.row .column:last-of-type{
+float:right;
+margin-right:0;
+clear:right;
+}
+*/
+
+
+
+$fractions : ("full","half","onethird","onefourth","onefifth","onesixth","oneseventh","oneeighth","onenineth","onetenth","oneeleventh","onetwelveth");
+$elements : ("col","input","textarea","select","button");
+
+
+$i:1;
+$columns:12;
+
+
+@while($i<=$columns){
+@each $element in $elements{
+@if($element=="col"){
+$element:"row "+ "." + $element;
+}
+.#{$element}-#{nth($fractions,$i)},.#{$element}-#{$i}{width:100/$i + 0%;}
+}
+
+$i:$i+1;
+}
+
+.row .col-threefourth,.input-threefourth,.textarea-threefourth,.select-threefourth,.button-threefourth{
+width:75%;
+}
+
+.row .col-fourfifth,.input-fourfifth,.textarea-fourfifth,.select-fourfifth,.button-fourfifth{
+width:80%;
+}
+
+
+/* media query */
+@media handheld, only screen and (max-width: 768px) {
+.row .col-1,.row .col-2,.row .col-3,.row .col-4,.row .col-5,.row .col-6,.row .col-7,.row .col-7,.row .col-8,.row .col-9,.row .col-10,.row .col-11,.row .col-12{width:100%;}
+.row .col-full,.row .col-half,.row .col-onethird,.row .col-onefourth,.row  .col-onefifth,.row .col-onesixth, .row .col-oneseventh, .row .col-oneeighth,.row .col-oneninth,.row .col-onetenth,.row .col-oneeleventh,.row .col-onetwelth{width:100%;}
+.row .col-threefourth{width:100%}
+tbody,thead,th,tr,td{display:block;width:100%}
+td:nth-child(1) {
+font-weight: bold;
+}
+}
+
+

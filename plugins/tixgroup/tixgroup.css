@@ -1,0 +1,9 @@
+.tixgroup{position:absolute;top:0;left:0}
+ul.tixgroupitems > li{position:absolute;opacity:0}
+.filters{position:relative;min-height:64px;display:block;margin-left:1em;margin-top:1em;z-index:5}
+.filters ul > li {margin-bottom:0.4em;}
+.filters a{display:block;padding:0.5em;margin-right:1em;border:1px solid #ccc;color:#333;z-index:2;float:left}
+.filters a:hover{background-color:#333;color:#fff;text-decoration:none}
+.filters a.current{background-color:#333;color:#fff;text-decoration:none;}
+.tixgroupfilter li{margin:1em;border:1px solid red;font-size:1em !important;display:inline-block !important;z-index:1}
+.tixgroupitems-wrapper{display:block;}

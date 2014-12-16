@@ -1,0 +1,21 @@
+/*table*/
+table{border-collapse:collapse;border-spacing: 0;border:0}
+table thead{text-align:left;vertical-align:bottom;}
+table thead th{font-weight:$table-th-font-weight;color:$table-th-text-color;text-align:left;border-bottom:$table-th-border solid $table-th-border-color;overflow:visible;margin:$table-th-margin;padding:$table-th-padding;}
+
+table td{overflow:visible;margin:$table-td-margin;padding:$table-td-padding;color:$table-td-text-color}
+table.table-bordered{border:$table-border solid $table-border-color}
+
+table.table-bordered td,table.table-bordered th{border-right:$table-border solid $table-border-color;border-bottom:$table-border solid $table-border-color}
+table.table-bordered td:last,table.table-bordered th:last{border:0}
+
+table.table-hover tbody tr:hover{background-color:$table-tr-hover-color;opacity:0.8;cursor:pointer}
+table.table-striped tbody tr:nth-child(odd) {background-color: $table-tr-odd-color;border-bottom:$table-border solid $table-border-color}
+
+
+table.horizontal-borders tr{border-bottom:2px solid $table-border-color;}
+table.horizontal-borders tr:last-child{border-bottom:0}
+table.vertical-borders td,table.vertical-borders th{border-right:$table-border solid $table-border-color;}
+table.vertical-borders td:last-child,table.vertical-borders th:last-child{border-right:0}
+td.numeric{text-align:right;}
+/*end table*/
