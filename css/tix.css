@@ -561,13 +561,14 @@ ul.plain {
     background-color: #FF896B; }
 
 .button-alt {
-  border: 1px solid #E6E6E6; }
+  border: 1px solid #E6E6E6;
+  background-color: #fff; }
   .button-alt:hover {
     border: 1px solid #D9D9D9; }
 
 .button-alt-primary {
   border: 1px solid #4483EE;
-  background-color: #4483EE; }
+  color: #4483EE; }
   .button-alt-primary:hover {
     border: 1px solid #5e8ee4;
     background-color: #5e8ee4;
@@ -575,7 +576,7 @@ ul.plain {
 
 .button-alt-danger {
   border: 1px solid #FF7070;
-  background-color: #FF7070; }
+  color: #FF7070; }
   .button-alt-danger:hover {
     border: 1px solid #FF7070;
     background-color: #FF7070;
@@ -583,7 +584,7 @@ ul.plain {
 
 .button-alt-success {
   border: 1px solid #00BD5E;
-  background-color: #00BD5E; }
+  color: #00BD5E; }
   .button-alt-success:hover {
     border: 1px solid #00BD5E;
     background-color: #00BD5E;
@@ -591,7 +592,7 @@ ul.plain {
 
 .button-alt-info {
   border: 1px solid #00B4E0;
-  background-color: #00B4E0; }
+  color: #00B4E0; }
   .button-alt-info:hover {
     border: 1px solid #7AE4FF;
     background-color: #7AE4FF;
@@ -599,7 +600,7 @@ ul.plain {
 
 .button-alt-warning {
   border: 1px solid #FF7452;
-  background-color: #FF7452; }
+  color: #FF7452; }
   .button-alt-warning:hover {
     border: 1px solid #FF896B;
     background-color: #FF896B;

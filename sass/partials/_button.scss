@@ -155,7 +155,7 @@ color:$flat-button-warning-text-color;
 .button-alt{
 border:1px solid $alt-button-border-color;
 @extend .button-flat;
-
+background-color:$alt-button-background-color;
 	&:hover{
 	border:1px solid $alt-button-hover-border-color;
 	}
@@ -164,7 +164,7 @@ border:1px solid $alt-button-border-color;
 
 .button-alt-primary{
 border:1px solid $alt-button-primary-border-color;
-background-color:$alt-button-primary-color;
+color:$alt-button-primary-color;
 	&:hover{
 	border:1px solid $alt-button-primary-hover-border-color;
 background-color:$alt-button-primary-hover-color;
@@ -175,7 +175,7 @@ color:$alt-button-primary-hover-text-color;
 
 .button-alt-danger{
 border:1px solid $alt-button-danger-border-color;
-background-color:$alt-button-danger-color;
+color:$alt-button-danger-color;
 	&:hover{
 	border:1px solid $alt-button-danger-hover-border-color;
 background-color:$alt-button-danger-hover-color;
@@ -187,7 +187,7 @@ color:$alt-button-danger-hover-text-color;
 
 .button-alt-success{
 border:1px solid $alt-button-success-border-color;
-background-color:$alt-button-success-color;
+color:$alt-button-success-color;
 	&:hover{
 	border:1px solid $alt-button-success-hover-border-color;
 background-color:$alt-button-success-hover-color;
@@ -198,7 +198,7 @@ color:$alt-button-success-hover-text-color;
 
 .button-alt-info{
 border:1px solid $alt-button-info-border-color;
-background-color:$alt-button-info-color;
+color:$alt-button-info-color;
 	&:hover{
 	border:1px solid $alt-button-info-hover-border-color;
 background-color:$alt-button-info-hover-color;
@@ -209,7 +209,7 @@ color:$alt-button-info-hover-text-color;
 
 .button-alt-warning{
 border:1px solid $alt-button-warning-border-color;
-background-color:$alt-button-warning-color;
+color:$alt-button-warning-color;
 	&:hover{
 	border:1px solid $alt-button-warning-hover-border-color;
 background-color:$alt-button-warning-hover-color;
