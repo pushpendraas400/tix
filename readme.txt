@@ -10,3 +10,8 @@ Tix comes with more than 20 most often used jquery plugins.
 
 visit http://tixcssframework.com for a demo/documentation.
 
+
+
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pushpendra10/tix/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
